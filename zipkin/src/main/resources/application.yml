@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: zipkin
+  rabbitmq:
+    host: 118.25.47.126
+    username: lerry
+    password: lerry@shanghai
+
+server:
+  port: 9411
+
+security:
+  user:
+    name: admin
+    password: ${ZIPKIN_SERVER_PASSWORD:admin}
