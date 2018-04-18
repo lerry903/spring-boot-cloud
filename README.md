@@ -1,6 +1,3 @@
-# 声明
-
-本项目基于zhangxd1989的spring-boot-cloud修改。
 
 # 基于 Spring Cloud 的微服务架构
 
